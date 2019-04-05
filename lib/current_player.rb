@@ -1,6 +1,8 @@
 def turn_count(board)
  counter=0
- if (board
+ board.each do |test|
+   if test=="X" || test=="O"
+     
 end
 
 def current_player
